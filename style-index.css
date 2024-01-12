@@ -1,0 +1,314 @@
+
+
+/**-------------------------------------Header----------------------------------------------**/
+
+.hd {
+  background-color: #ffefcf;
+}
+.cnt{
+  background-color: #ffefcf;
+}
+
+.header h1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.header h4{
+  font-size:20px;
+}
+
+
+@media (max-width: 767px) {
+
+
+  .header h1 {
+      font-size: 20px !important;
+      font-weight: 600;
+  }
+
+  .header h4{
+      font-size: 15px;
+  }
+
+}
+
+/**-------------------------------------Heder-End----------------------------------------------**/
+
+
+
+
+/**-------------------------------------Footer----------------------------------------------**/
+
+
+footer {
+  color: white;
+  text-align: center;
+  background-color: rgb(25, 135, 84);
+}
+
+@media (max-width: 767px) {
+
+}
+
+
+
+/**-------------------------------------Footer-End----------------------------------------------**/
+
+
+
+
+
+
+
+
+
+/**-------------------------------------Home-Index----------------------------------------------**/
+
+/* * {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+  /* Corrected font name */
+/*} 
+*/
+
+*{
+  font-family: 'Noto Sans Tamil', sans-serif;
+
+}
+.ls h3{
+
+  font-size: 24px;
+}
+
+.rs h2{
+  font-size: 24px;
+}
+
+
+@media (max-width: 767px) {
+
+ p{
+  font-size: 14px;
+ }
+
+}
+
+/**-------------------------------------Home-Index-End---------------------------------------------**/
+
+
+/**-------------------------------------Hreb-type-Index----------------------------------------------**/
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+
+footer.en {
+  text-align: center;
+  background-color: rgb(25, 135, 84); /* English footer background color */
+  color: #333; /* English footer text color */
+  
+  bottom: 0;
+  float: none;
+  
+}
+
+footer.ta {
+  text-align: center;
+  background-color:rgb(25, 135, 84); /* Tamil footer background color */
+  color: #333; /* Tamil footer text color */
+  
+  float: none;
+}
+
+
+.side_bar {
+  
+ position: relative;
+  /*bottom: 50px;*/
+  /*background: rgba(0, 0, 0, 0.1);*/
+  border-radius: 10px;
+ /* background-color: orange;*/
+ /* box-shadow: 5px 7px 10px rgba(0, 0, 0, .5);*/
+}
+
+.side_bar ul {
+  position: relative;
+  list-style-type: none;
+  width: 300px;
+/*  background-color: #ffebcc;*/
+  
+}
+
+.side_bar ul li a {
+  display: flex;
+  align-items: center;
+  font-family: Arial, sans-serif;
+  font-size: 17px;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: green;
+  padding: 10px 30px;
+  height: 50px;
+  margin-bottom: 1px;
+  transition: .5s ease;
+  border-radius: 30px 30px;
+  background-color:rgb(252, 227, 160) ;
+}
+.side_bar ul ul li a{
+  background-color: #ffd699;
+}
+
+.side_bar ul ul ul li a{
+  background-color: #ffff66;
+}
+
+
+
+.side_bar ul li a:hover {
+  background-color:rgb(245, 183, 105) ;
+  color: #fff;
+}
+
+.side_bar ul ul {
+  position: absolute;
+  left: 95%; /* Adjusted to align with the parent */
+  top: 0;
+  bottom: 100px;
+  width: 280px;
+  /*background: rgba(155, 39, 176, .4);*/
+  display: none;
+  border-radius: 5px;
+  /*box-shadow: 2px 2px 10px rgba(0, 0, 0, .1);*/
+}
+
+.side_bar ul .dropdown:hover > ul {
+  display: block;
+}
+
+.side_bar ul ul .dropdown_two:hover > ul {
+  display: block;
+}
+
+
+
+
+
+/* Your existing CSS */
+
+/* Add a media query for mobile devices */
+@media (max-width: 768px) {
+  .side_bar {
+      width: 70%; /* Adjust the width to take up the full width */
+      position: static; /* Change the position to static */
+      border-radius: 0; /* Remove border-radius */
+      background-color: #ffefcf;
+      box-shadow: none; /* Remove the shadow */
+  }
+
+  .side_bar ul {
+      width: 100%; /* Adjust the width */
+      font-size: 10px;
+  }
+
+  .side_bar ul ul {
+      position: static; /* Change the position to static */
+      width: 100%; /* Adjust the width */
+      display: none; /* Hide the submenus by default */
+      background: none; /* Remove the background */
+      box-shadow: none; /* Remove the shadow */
+  }
+
+  /* Show submenus when parent li is clicked */
+  .side_bar ul li  {
+      cursor: pointer; /* Show pointer cursor */
+  }
+
+  .side_bar ul li ul {
+      display: none; /* Hide submenus by default */
+  }
+
+  .side_bar ul li ul.show {
+      display: block; /* Show submenu when active */
+  }
+
+  .side_bar ul ul ul li {
+      font-size: 10px;
+      color: green;
+  }
+  
+}
+
+
+
+
+
+
+
+/**-------------------------------------Hreb-type-Index-End---------------------------------------------**/
+
+
+
+
+/**-------------------------------------Form---------------------------------------------------------------**/
+.clctdata .form-label{
+  
+    color: green;
+  
+}
+.clctdata .form-text{
+  color: green;
+}
+
+.clctdata button{
+  background-color: rgb(255, 204, 77);
+}
+
+.clctdata .heading {
+ background-color:  rgb(255, 204, 77);
+ border-radius: 10px;
+}
+
+
+/*--------------------------------End-form----------------------------*/
+
+
+
+
+/*-------------------------------content---------------------------*/
+
+.formdata .form-label{
+  
+  color: green;
+
+}
+.formdata .form-text{
+color: green;
+}
+
+
+
+.formdata  .heading {
+background-color:  rgb(255, 204, 77);
+padding: 0;
+margin: 0;
+
+
+}
+.headingh5{
+  border-radius: 220px;
+  background-color: rgb(255, 204, 77);
+}
+/* Responsive styles for screens between 601 and 900 pixels wide */
+@media screen and (min-width: 900px) and (max-width: 2000px) {
+   .headingh5{
+    font-size: 40px;
+    border-radius: 10px;
+    background-color: rgb(255, 204, 77);
+  }
+}
