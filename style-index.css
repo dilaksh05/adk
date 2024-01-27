@@ -13,7 +13,7 @@
 
 
 
- 
+
 மாவட்டம்
    ஆதார் ஓட்டுநர் உரிமம் அடையாள அட்டை
    வாக்காளர் அட்டை தனியார் அல்லது அரசு அடையாள அட்டை புகைப்பட 
@@ -70,9 +70,6 @@ footer {
   color: white;
   text-align: center;
   background-color: rgb(25, 135, 84);
-  position: relative;
-  left: 0;
-  right: 0;
 
 }
 
@@ -349,60 +346,10 @@ margin: 0;
 }
 
 
-
-
-/**-------------------------------------User-account----------------------------------------------**/
-
-th {
-  font-size: 10px;
-}
-
-.tblecls img {
-  width: 100px;
-  height: 100px;
-}
-
-.tblecls table td{
-  background-color: rgb(255, 239, 207);
-}
-
-.tblecls table th{
-  background-color: rgb(255, 239, 207);
-}
-
-.atag a{
-  text-decoration: none;
-}
-.star{
-  margin-top: 150px;
-  margin-left: -80px;
-  background-color: yellow;
-  border-radius: 50%;
-}
-
-.atag ul{
-  text-decoration: none;
-}
-
-
-@media screen and (min-width: 900px) and (max-width: 2000px) {
-.headh4
-{
-  text-decoration: underline;
-   text-decoration-color: white;
-    font-weight: bold;
-     font-size: 30px;
-}
-}
-
-
-@media screen and (min-width: 100px) and (max-width: 900px) {
-  .headh4
-  {
-    text-decoration: underline;
-     text-decoration-color: white;
-      font-weight: bold;
-       
+/*-------------------------------------user-form------------------------------------------------------*/
+@media screen and (min-width: 500px) and (max-width: 2000px) {
+  .usrfrm{
+    width: 480px;
   }
-  }
+}
 

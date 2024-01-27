@@ -6,13 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 
-    <link rel="icon" href="assets/user-images.png" type="image/png">
-    <link rel="stylesheet" href="assets/style-index.css">
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="icon" href="assets/form.png" type="image/png">
+    <link rel="stylesheet" href="style-index.css">
 
-    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <!-- Include Bootstrap CSS (make sure to adjust the version according to your needs) -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Include Font Awesome CSS (make sure to adjust the version according to your needs) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
 
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
@@ -36,6 +37,7 @@
 <body>
 
     <!--Header-->
+
     <header class="header ">
         <div class="bg-success container-fluid text-end ">
             <a href=" #" class="text-white" onclick="switchLanguage('en')">English</a>
@@ -75,7 +77,7 @@
 
 
         <!-- English -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-success p-0 en ">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-success p-0 en ">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand">
                     <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap"
@@ -120,7 +122,7 @@
             </div>
         </nav>
         <!-- Tamil -->
-        <nav class="navbar navbar-expand-md navbar-dark bg-success p-0 ta ">
+        <nav class="navbar navbar-expand-sm navbar-dark bg-success p-0 ta ">
             <div class="container-fluid">
                 <a href="#" class="navbar-brand">
                     <img src="https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo.svg" alt="Bootstrap"
@@ -171,303 +173,818 @@
     <!--End header-->
 
 
+    <!--End-Header-->
 
 
+    <!--Jumbotron-->
 
+    <!--English-->
 
+    <div class="container-fluid en m-0 p-0">
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/">Home</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="">Form</a>
+                </li>
+            </ol>
 
+        </nav>
 
+    </div>
 
+    <!--English-->
+
+    <!--Tamil-->
+
+    <div class="container-fluid cnt ta m-0 p-0">
+        <nav>
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item">
+                    <a href="/">முகப்பு</a>
+                </li>
+                <li class="breadcrumb-item">
+                    <a href="">விண்ணப்பம் </a>
+                </li>
+            </ol>
+
+        </nav>
+    </div>
+    <!--Tamil-->
+    <!--End Jumbotron-->
 
     <!--content-->
 
-    <div class="container-fluid cnt">
 
-        <!--<div class="container d-flex justify-content-center">
-            <img src="a.jpg" alt="" class="img-fluid-sm ">
-        </div>-->
 
-        <div class="container-fluid text-center pt-4">
-            <img src="assets/9434619.jpg" class="rounded-circle" alt="" width="200" height="200">
-            <img src="assets/icons8-star-50.png" alt="" class="star">
+
+
+
+
+    <div class="card   clctdata m-0 p-0">
+        <div class="card-header ">
+            <ul class="nav nav-tabs card-header-tabs">
+                <li class="nav-item">
+                    <a class="nav-link active" data-bs-toggle="tab" href="#contact">உறுப்பினர் உள்நுழைவு </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" data-bs-toggle="tab" href="#home">உறுப்பினர் சேர்க்கை </a>
+                </li>
+            </ul>
         </div>
 
-        <div class="container-fluid  p-4">
-            <div class="row">
-                <div class="col-sm-4"></div>
-                <div class="col-sm-4">
-                    <h4 class="text-center headh4">
-                        Dilakshan kamalathasan</h4>
-                </div>
-                <div class="col-sm-4">
-                    <div class="row">
-                        <span style="font-size: 13px;text-align: center;"> kamalathasan dilakshan வகைப்படுத்தியுள்ள
-                            தாவரங்களின் ஆதரவு
-                            எதிர்ப்பு சதவீதம் </span>
+        <div class="card-body d-flex justify-content-center cnt">
+            <div class="tab-content cnt">
 
-                    </div>
-
-                   
-                        <div class="row" style="font-size: 13px;text-align: justify;">
-                          <div class="col-md-2 col-2">
-                            <span>ஆதரவு</span>
-                          </div>
-                          <div class="col-md-8 col-8">
-                            <div class="progress-stacked">
-                                <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0"
-                                    aria-valuemax="100" style="width: 15%">
-                                    <div class="progress-bar bg-success">15%</div>
-                                </div>
-                                <div class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="85" aria-valuemin="0"
-                                    aria-valuemax="100" style="width: 85%">
-                                    <div class="progress-bar bg-danger">85%</div>
-                                </div>
-                           
-                            </div>
-                          </div>
-                          <div class="col-md-2 col-2">
-                            <span>மறுப்பு</span>
-                          </div>
+                <!-- உள்நுழைய -->
+                <div class="tab-pane fade show active cnt" id="contact">
+                    <div class="card p-1 cnt usrfrm">
+                        <div class="card-title cnt p-0 m-0">
+                            <h1 class="text-center cnt p-0 m-4 heading fs-2">உறுப்பினர் உள்நுழைவு</h1>
                         </div>
-                      </div>
-              
+                        <div class="card-body cnt ">
+                            <form action="login.php" method="post" enctype="multipart/form-data" class="p-0 m-0">
+
+                                <!--   பயனர் பெயர்
+                                <div class="form-group">
+                                    <div class="row">
+                                        <div class="col-sm-4">
+                                            <label for="payanarpeyar" class="form-label payanarpeyar">
+                                                பயனர் பெயர் <span class="text-danger">*</span></label>
+
+                                        </div>
+
+                                        <div class="col-sm-8">
+                                            <input type="text" name="payanarpeyar" id="payanarpeyar"
+                                                class="form-control fst-italic fst-lighter payanarpeyar"
+                                                placeholder="பயனர் பெயர்">
+                                        </div>
+                                    </div>
+                                </div>
+                                பயனர் பெயர்-->
+
+
+                                <!-- மின்னஞ்சல்-->
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <div class="row ">
+                                            <div class="col-sm-4">
+                                                <label for="exampleFormControlTextarea1"
+                                                    class="form-label minnanchal">மின்னஞ்சல்
+                                                    <span class="text-danger">*</span> </label>
+
+
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="fa fa-envelope-o" aria-hidden="true"></i>
+                                                        </span>
+                                                        <input type="email" name="minnanchal1" id="minnanchal1"
+                                                            class="minnanchal1 form-control fst-italic fst-lighter"
+                                                            placeholder="மின்னஞ்சல் ">
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- மின்னஞ்சல்-->
+                                <hr>
+                                <!-- கடவுச்சொல் -->
+                                <div class="form-group">
+                                    <div class="form-group">
+                                        <div class="row ">
+                                            <div class="col-sm-4">
+                                                <label for="exampleFormControlTextarea1" class="form-label"
+                                                    id="kadavuchchol1" class="kadavuchchol1">கடவுச்சொல் <span
+                                                        class="text-danger">*</span> </label>
+
+
+                                            </div>
+                                            <div class="col-sm-8">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text"><i class="fa fa-key"
+                                                                aria-hidden="true"></i></span>
+                                                        <input type="password" name="kadavuchchol1" id="kadavuchchol1"
+                                                            pattern="[0-9+-() ]*"
+                                                            class="mukavari form-control fst-italic fst-lighter"
+                                                            placeholder="கடவுச்சொல்" />
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- கடவுச்சொல் -->
+                                <hr>
+
+                                <!--input-->
+                                <div class="form-group">
+                                    <div class="row">
+                                        <a href="reset-password.html" style="text-align: end;">கடவுச்சொல்லை
+                                            மறந்துவிட்டீர்களா?</a>
+                                        <br> <br>
+                                    </div>
+                                    <div class="d-grid gap-2 col-6 mx-auto">
+                                        <button class="btn submitform " id="submitform1" name="submitform1"
+                                            type="submit">உள்நுழைக
+
+                                        </button>
+                                    </div>
+                                </div>
+                                <!--input-->
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <!-- உள்நுழைய -->
+
+                <!-- புதிய உறுப்பினர் சேர்க்க -->
+                <div class="tab-pane fade" id="home">
+                    <div class="card p-2 cnt">
+
+                        <div class="  cnt d-flex justify-content-center ">
+
+                            <h1 class=" text-center p-0 m-4 heading fs-2 w-50">உறுப்பினர் சேர்க்கை</h1>
+
+                        </div>
+                        <div class="card-body cnt">
+                            <div class="formm cnt ">
+                                <form action="signup.php" method="post" enctype="multipart/form-data">
+
+                                    <!--உறுப்பினர் பெயர் -->
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <label for="" class="form-label">உறுப்பினர் பெயர் </label>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                                        </span>
+
+
+                                                    </div>
+                                                    <input type="text" name="iyatpeyar" id="iyatpeyar"
+                                                        class="form-control fst-italic fst-lighter iyatpeyar"
+                                                        aria-describedby="iyatpeyar" placeholder="இயற்பெயர்">
+                                                </div>
+
+
+                                                <div id="iyatpeyar" class="form-text ">
+                                                    தங்களது உண்மையான இயற்பெயரை பதிவு செய்யவேண்டும். இணையதளத்தில்
+                                                    இந்த பெயர் தோன்றாது
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--உறுப்பினர் பெயர் -->
+
+                                    <hr>
+
+                                    <!--சுயவிபர பெயர் -->
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <label for="" class="form-label">சுயவிபர பெயர்<span
+                                                        class="text-danger">*</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="fa fa-user-circle" aria-hidden="true"></i>
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" name="suyapeyar" id="suyapeyar"
+                                                        class="form-control fst-italic fst-lighter suyapeyar"
+                                                        aria-describedby="suyapeyar" placeholder="புனைபெயர்" required>
+                                                </div>
+
+
+                                                <div id="suyapeyar" class="form-text ">
+                                                    தங்களின் புனைபெயர் அல்லது அனைவருக்கும்
+                                                    அறிமுகமான பெயர் இணையதளம் முழுவதும் இந்த பெயர் தோனறும்
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--சுயவிபர பெயர் -->
+
+                                    <hr>
+                                    <!--தொழில்  -->
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <label for="" class="form-label">தொழில்</label>
+
+                                            </div>
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text">
+                                                                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                                                                </span>
+                                                                <input type="text" name="tholil" id="tholil"
+                                                                    class="form-control fst-italic fst-lighter tholil"
+                                                                    aria-describedby="passwordHelpBlock"
+                                                                    placeholder="முக்கிய தொழில்">
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                    <br> <br>
+                                                    <div class="col-sm-6">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"> <i
+                                                                        class="fa fa-briefcase"
+                                                                        aria-hidden="true"></i></span>
+                                                                <input type="text" name="tholil1" id="tholil1"
+                                                                    class="form-control fst-italic fst-lighter thavarainam1"
+                                                                    placeholder="ஓய்வு நேரத்தொழில்">
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                                <div class="row">
+                                                    <div id="tholil1" class="form-text">
+                                                        சித்த மருத்துவர்/ பாரம்பரிய மருத்துவர்/ மற்ற துறை
+                                                        மருத்துவர்/
+                                                        தாவரவியல்
+                                                        ஆய்வாளர்/ மூலிகை ஆர்வலர்/ மற்ற துறை
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!--தொழில் -->
+
+                                    <hr>
+
+                                    <!--இருப்பிடம்-->
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <label for="iruppidam" class="form-label iruppidam">இருப்பிடம் <span
+                                                        class="text-danger">*</span></label>
+
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="fa fa-thumb-tack" aria-hidden="true"></i>
+                                                        </span>
+                                                    </div>
+                                                    <input type="text" name="iruppidam" id="iruppidam"
+                                                        class="form-control fst-italic fst-lighter iruppidam"
+                                                        placeholder="மாவட்ட பெயர்/ மாநிலம்/ நாடு/ தங்களின் இருப்பிடம்">
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--இருப்பிடம்-->
+
+                                    <hr>
+
+                                    <!--முகவரி -->
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <label for="mukavaril" class="form-label mukavaril">முகவரி</label>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text">
+                                                                    <i class="fa fa-home" aria-hidden="true"></i>
+                                                                </span>
+
+                                                                <input type="text" name="homeno" id="homeno"
+                                                                    class="homeno form-control fst-italic fst-lighter"
+                                                                    placeholder="வீட்டு எண்  ">
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="col-sm-6">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><i class="fa fa-road"
+                                                                        aria-hidden="true"></i></span>
+                                                                <input type="text" name="Road" id="Road"
+                                                                    class="Road form-control fst-italic fst-lighter"
+                                                                    placeholder="வீதி ">
+
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><i
+                                                                        class="fa fa-location-arrow"
+                                                                        aria-hidden="true"></i></span>
+                                                                <input type="text" name="village" id="village"
+                                                                    class="village form-control fst-italic fst-lighter"
+                                                                    placeholder="ஊர் ">
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                    <div class="col-sm-6">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text">
+                                                                    <i class="fa fa-location-arrow"
+                                                                        aria-hidden="true"></i>
+                                                                </span>
+                                                                <input type="text" name="district" id="district"
+                                                                    class="district form-control fst-italic fst-lighter"
+                                                                    placeholder="மாவட்டம்">
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+
+                                                <div class="row">
+                                                    <div class="col-sm-6">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text"><i
+                                                                        class="fa fa-location-arrow"
+                                                                        aria-hidden="true"></i></span>
+                                                                <input type="text" name="manilam" id="manilam"
+                                                                    class="manilam form-control " placeholder="மாநிலம்">
+                                                            </div>
+
+                                                        </div>
+
+
+                                                    </div>
+
+                                                    <div class="col-sm-6">
+                                                        <div class="input-group">
+                                                            <div class="input-group-prepend">
+                                                                <span class="input-group-text">
+                                                                    <i class="fa fa-globe" aria-hidden="true"></i>
+                                                                </span>
+                                                                <input type="text" name="naadu" id="naadu"
+                                                                    class="naadu form-control fst-italic fst-lighter"
+                                                                    placeholder="நாடு">
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--முகவரி -->
+
+                                    <hr>
+
+
+                                    <!--என்னைப்பற்றி -->
+                                    <div class="form-group">
+                                        <div class="row">
+                                            <div class="col-sm-2">
+                                                <label for="ennaippatri" class="form-label ennaippatri">என்னைப்பற்றி
+                                                </label>
+
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="input-group">
+                                                    <div class="input-group-prepend">
+                                                        <span class="input-group-text">
+                                                            <i class="fa fa-commenting-o" aria-hidden="true"></i>
+                                                        </span>
+                                                    </div>
+                                                    <textarea class="form-control"
+                                                        placeholder="உங்களை பற்றி சிலவரிகள் எழுதுங்கள் "
+                                                        id="floatingTextarea" name="aboutme"></textarea>
+                                                </div>
+
+                                                <label for="floatingTextarea"
+                                                    class="form-label form-text">என்னைப்பற்றி</label>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--என்னைப்பற்றி-->
+
+                                    <hr>
+                                    <!-- மின்னஞ்சல்-->
+                                    <div class="form-group">
+                                        <div class="form-group">
+                                            <div class="row ">
+                                                <div class="col-sm-2">
+                                                    <label for="exampleFormControlTextarea1"
+                                                        class="form-label minnanchal">மின்னஞ்சல்
+                                                        <span class="text-danger">*</span> </label>
+
+
+                                                </div>
+                                                <div class="col-sm-10">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">
+                                                                <i class="fa fa-envelope-o" aria-hidden="true"
+                                                                    style="color: red;"></i>
+                                                            </span>
+                                                        </div>
+                                                        <input type="email" name="minnanchal" id="minnanchal"
+                                                            class="minnanchal form-control" placeholder="மின்னஞ்சல்">
+                                                    </div>
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- மின்னஞ்சல்-->
+                                    <hr>
+                                    <!-- அலைபேசி எண்கள்  -->
+                                    <div class="form-group">
+                                        <div class="form-group">
+                                            <div class="row ">
+                                                <div class="col-sm-2">
+                                                    <label for="exampleFormControlTextarea1" class="form-label"
+                                                        id="tholaipesien" class="tholaipesien">தொடர்பு எண்</label>
+
+
+                                                </div>
+                                                <div class="col-sm-10">
+
+                                                    <div class="row">
+                                                        <div class="col-sm-12">
+
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i
+                                                                            class="fa fa-phone-square"
+                                                                            aria-hidden="true"
+                                                                            style="color: blue;"></i></span>
+                                                                </div>
+                                                                <input type="tel" name="tholaipesien" id="tholaipesien"
+                                                                    pattern="[0-9+-() ]*" class="mukavari form-control "
+                                                                    placeholder="அலைபேசி எண்/தொலைபேசி எண்" />
+                                                            </div>
+                                                            <label for="tholaipesien"
+                                                                class="form-label form-text tholaipesien">
+                                                                யாரேனும் உங்களை தொடர்புகொள்ள விரும்பினால் உதவும்
+                                                                அலைபேசி/தொலைபேசி எண்
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- அலைபேசி எண்கள்  -->
+                                    <hr>
+
+                                    <!-- சமூக ஊடகங்கள்   -->
+                                    <div class="form-group">
+                                        <div class="form-group">
+                                            <div class="row ">
+                                                <div class="col-sm-2">
+                                                    <label for="exampleFormControlTextarea1" class="form-label"
+                                                        id="socialmedia" class="socialmedia">சமூக ஊடகங்கள் </label>
+
+
+                                                </div>
+                                                <div class="col-sm-10">
+
+
+                                                    <div class="row">
+                                                        <div class="col-sm-3">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i
+                                                                            class="fa fa-facebook-square"
+                                                                            aria-hidden="true"
+                                                                            style="color: blue;"></i></span>
+                                                                </div>
+                                                                <input type="text" class="form-control Facebook"
+                                                                    placeholder="பயனர் பெயர்" name="Facebook">
+                                                            </div>
+                                                        </div>
+                                                        <br> <br>
+                                                        <div class="col-sm-3">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i
+                                                                            class="fa fa-times" aria-hidden="true"
+                                                                            style="color: black;"></i></span>
+                                                                </div>
+                                                                <input type="text" class="form-control twitter"
+                                                                    placeholder="பயனர் பெயர்" name="twitter">
+                                                            </div>
+                                                        </div>
+                                                        <br> <br>
+                                                        <div class="col-sm-3">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i
+                                                                            class="fa fa-linkedin-square"
+                                                                            aria-hidden="true"
+                                                                            style="color: blue;"></i></span>
+                                                                </div>
+                                                                <input type="text" class="form-control linkedin"
+                                                                    placeholder="பயனர் பெயர்" name="linkedin">
+                                                            </div>
+                                                        </div>
+                                                        <br> <br>
+                                                        <div class="col-sm-3">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i
+                                                                            class="fa fa-instagram" aria-hidden="true"
+                                                                            style="color: red;"></i></span>
+                                                                </div>
+                                                                <input type="text" class="form-control instagram"
+                                                                    placeholder="பயனர் பெயர்" name="instagram">
+                                                            </div>
+                                                        </div>
+                                                        <br> <br>
+                                                        <div class="col-sm-3">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i
+                                                                            class="fa fa-whatsapp" aria-hidden="true"
+                                                                            style="color: green;"></i></span>
+                                                                </div>
+                                                                <input type="text" class="form-control whatsapp"
+                                                                    placeholder="பயனர் பெயர்" name="whatsapp">
+                                                            </div>
+                                                        </div>
+
+                                                        <br> <br>
+                                                        <div class="col-sm-3">
+                                                            <div class="input-group">
+                                                                <div class="input-group-prepend">
+                                                                    <span class="input-group-text"><i
+                                                                            class="fa fa-telegram" aria-hidden="true"
+                                                                            style="color: blue;"></i></span>
+                                                                </div>
+                                                                <input type="text" class="form-control telegram"
+                                                                    placeholder="பயனர் பெயர்" name="telegram">
+                                                            </div>
+                                                        </div>
+
+                                                    </div>
+
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- சமூக ஊடகங்கள்  -->
+
+
+
+                                    <hr>
+
+                                    <!-- அடையாளச்சான்று   -->
+                                    <div class="form-group">
+                                        <div class="form-group">
+                                            <div class="row ">
+                                                <div class="col-sm-2">
+                                                    <label for="exampleFormControlTextarea1"
+                                                        class="form-label form-label">அடையாளச்சான்று
+                                                        <span class="text-danger">*</span>
+                                                    </label>
+                                                </div>
+                                                <div class="col-sm-10">
+                                                    <p class=" bg-white p-2 pb-0"
+                                                        style="text-align: left; color: rgba(255, 0, 0, 0.6);border-radius: 8px;font-size: 15px;">
+                                                        தாங்கள் பதிவேற்றும் புகைப்பட அடையாளச்சான்றானது, முதல்முறையாக
+                                                        இந்த
+                                                        இணையத்தில் தங்கள்
+                                                        சுயவிபரத்தை உருவாக்கும்போது, இந்த இணையதள நிர்வாகிகளின்
+                                                        சுயவிபரப்புகைப்பட
+                                                        ஒப்பீட்டுக்காக
+                                                        மட்டுமே பயன்படுத்தப்படும். வேறு எந்த வகையிலும்/ எந்த
+                                                        இடத்திலும்
+                                                        பயன்படுத்தப்படமாட்டாது.
+                                                        இந்த இணையதளத்தில் எந்த இடத்திலும் தங்களுடைய அடையாளச்சான்று
+                                                        காட்டப்படமாட்டாது.
+                                                        <br> <span class="text-muted">ஆதார்/ ஓட்டுநர் உரிமம்/ அடையாள
+                                                            அட்டை/ வாக்காளர் அட்டை/
+                                                            தனியார்
+                                                            அல்லது அரசு நிறுவன அடையாள அட்டை/ புகைப்பட
+                                                            பாராட்டுச்சான்றிதழ்கள் இதுபோன்ற புகைப்படம்
+                                                            இடம்பெற்றுள்ள அடையாளாச் சான்றுகளில் ஏதேனும் ஒன்று
+                                                            போதுமானது
+                                                        </span>
+                                                        <br> <br> <input class="form-control image1" type="file"
+                                                            id="image1" accept="image/*" placeholder="hi"
+                                                            name=" formFile[]">
+                                                    </p>
+
+
+
+                                                    <label for="noolkal" class="form-label form-text ">இந்த
+                                                        இணையதளத்தில்
+                                                        இடம்பெற்றுள்ள தாவர
+                                                        ஆவணங்களின் உண்மைத்தன்மையை உறுதி செய்யவே இந்த கட்டுப்பாடு.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- அடையாளச்சான்று   -->
+
+                                    <hr>
+                                    <!-- சுயவிபர ஒளிப்படம் -->
+                                    <div class="form-group">
+                                        <div class="row">
+
+                                            <div class="col-sm-2">
+                                                <label for="" class="form-label">சுயவிபர ஒளிப்படம் <span
+                                                        class="text-danger">*</span>
+                                                </label>
+                                            </div>
+
+                                            <div class="col-sm-10">
+                                                <div class="">
+                                                    <div class="input-group">
+                                                        <span class="input-group-text" for="image2"> <i
+                                                                class="fa fa-picture-o" aria-hidden="true"></i></span>
+                                                        <input class="form-control image2" type="file" id="image2"
+                                                            accept="image/*" name=" formFile[]">
+                                                    </div>
+
+
+                                                    <label for="formFileMultiple" class="form-label form-text">பூக்கள்/
+                                                        தாவரங்கள்/ கடவுள்/
+                                                        போன்ற பொதுவான படங்களை பதிவேற்ற வேண்டாம்,
+                                                        ஏற்றுக்கொள்ளப்படமாட்டாது. தங்களுடைய உண்மையான ஒளிப்படத்தை
+                                                        பதிவேற்றவும் .</label>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- சுயவிபர ஒளிப்படம்-->
+                                    <hr>
+
+                                    <!-- கடவுச்சொல் -->
+                                    <div class="form-group">
+                                        <div class="form-group">
+                                            <div class="row">
+                                                <div class="col-sm-2">
+                                                    <label for="exampleFormControlTextarea1" class="form-label"
+                                                        id="kadavuchchol" class="kadavuchchol">கடவுச்சொல் <span
+                                                            class="text-danger">*</span> </label>
+
+
+                                                </div>
+                                                <div class="col-sm-5">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">
+                                                                <i class="fa fa-key" aria-hidden="true"></i>
+                                                            </span>
+                                                        </div>
+
+                                                        <input type="password" name="kadavuchchol" id="password"
+                                                            pattern="[0-9+-() ]*"
+                                                            class="kadavuchchol form-control fst-italic fst-lighter"
+                                                            placeholder="கடவுச்சொல்" required/>
+                                                    </div>
+
+                                                </div>
+
+                                                <div class="col-sm-5">
+                                                    <div class="input-group">
+                                                        <div class="input-group-prepend">
+                                                            <span class="input-group-text">
+                                                                <i class="fa fa-key" aria-hidden="true"></i>
+                                                            </span>
+                                                        </div>
+                                                        <input type="password" name="kadavuchchol2" id="confirmPassword"
+                                                            pattern="[0-9+-() ]*"
+                                                            class="kadavuchchol2 form-control fst-italic fst-lighter"
+                                                            placeholder="கடவுச்சொல்" required/>
+                                                    </div>
+
+
+                                                    <label for="kadavuchchol2" class="form-label form-text">மீண்டும்
+                                                        பதிவிடுக </label>
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- கடவுச்சொல் -->
+
+                                    <hr>
+
+                                    <!--input-->
+                                    <div class="form-group">
+                                        <div class="d-grid gap-2 col-6 mx-auto">
+                                            <button class="btn submitform " id="submitform" name="submitform"
+                                                type="submit" onclick="validatePasswords(event)"">பதிவு செய்
+
+                                            </button>
+                                        </div>
+                                    </div>
+                                    <!--input-->
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- புதிய உறுப்பினர் சேர்க்க -->
+
             </div>
         </div>
     </div>
-    </div>
-
-    <div class="container-fluid d-flex justify-content-center cnt">
-        <hr class="  border-3 opacity-75" width="100%" style="color: rgb(255, 204, 77);">
-    </div>
-
-   
-
-    <div class="container-fluid cnt">
-        <div class="row ">
-            <div class="col-sm-6 text-center atag">
-                <h6 class="text-center">Dilaksh</h6>
-                <h6 class="text-center">Botany research</h6>
-                <h6 class="text-center">Botany research2</h6>
-                <h6 class="text-center">No 000A, ABC Shop Road <br> ABC Village ABC City <br> Sri Lanka</h6>
-
-
-                <a class="text-center" href="#"><i class="fa fa-facebook-square" aria-hidden="true"
-                        style="color: blue;"></i> <span> facebook.com/dilaksh</span></a> <br>
-                <a class="text-center" href="#"> <i class="fa fa-twitter-square" aria-hidden="true"
-                        style="color: blue;"></i> <span> twitter.com/dilaksh</span> </a> <br>
-                <a class="text-center" href="#"> <i class="fa fa-linkedin-square" aria-hidden="true"
-                        style="color: blue;"></i> <span> linkedin.com/dilaksh</span> </a> <br>
-                <a class="text-center" href="#"> <i class="fa fa-instagram" aria-hidden="true"
-                        style="color: red;"></i> <span> instagram.com/dilaksh</span> </a> <br>
-                <a class="text-center" href="https://wa.me/+94772124403"> <i class="fa fa-whatsapp" aria-hidden="true"
-                        style="color: rgb(64, 225, 93);"></i>  <span> https://wa.me/+94772124403</span> </a>
-
-            </div>
-
-
-            <div class="col-sm-6">
-
-                <div class="row">
-                    <div class="col-sm-6"></div>
-                    <div class="col-sm-6">
-                        <h6 class="text-stert">Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                            Debitis ea qui dignissimos ut enim? Quasi
-                            deleniti dolor neque. Asperiores laudantium aliquam corporis quibusdam omnis ex harum
-                            dicta
-                            facere
-                            accusantium nulla?</h6>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
 
 
 
-    <div class="container-fluid d-flex justify-content-center cnt">
-        <hr class="  border-3 opacity-75" width="100%" style="color: rgb(255, 204, 77);">
-    </div>
-
-    <!--navbar-->
-    <!--<div class="container ">
-
-            <nav class="navbar navbar-expand-lg ">
-                <div class="container-fluid">
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link" href="#content-1">வலைப்பதிவு</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link " aria-current="page" href="#content-2">என்னை பற்றி</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="#">சுய கட்டுரைகள் </a>
-                            </li>
-
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="true">
-                                    தொடர்புக்கு
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-facebook-square"
-                                                aria-hidden="true" style="color: blue;"></i> &nbsp; Facebook</a></li>
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-twitter-square"
-                                                aria-hidden="true" style="color: blue;"></i>&nbsp; Twitter</a></li>
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-linkedin-square"
-                                                aria-hidden="true" style="color: blue;"></i>&nbsp; Linkedin</a></li>
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-instagram" aria-hidden="true"
-                                                style="color: red;"></i>&nbsp; Instagram</a></li>
-                                    <li><a class="dropdown-item" href="#"><i class="fa fa-whatsapp" aria-hidden="true"
-                                                style="color: rgb(64, 225, 93);"></i>&nbsp; whatsapp</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>-->
-
-    <!--navbar-->
-    </div>
 
 
-
-    <!-- Content Divs -->
-
-    <!-- <div class="container mt-3 d-flex justify-content-center" id="content-container" style="min-height: 300px;">
-
-
-
-    </div>
--->
     <!--End-content-->
 
-    <!-- <div class="container d-flex justify-content-center ">
-        <hr class="  border-3 opacity-75" width="100%" style="color: rgb(255, 204, 77);">
-    </div>-->
 
 
-    <div class=" table-responsive tblecls ">
-
-        <table class="table cnt">
-            <thead class="">
-                <tr>
-                    <th>பெரு மரங்கள்</th>
-                    <th>சிறு மரங்கள்</th>
-                    <th>குறு மரங்கள் </th>
-                    <th>சிறுசெடிகள்</th>
-                    <th>பெருஞ் செடிகள்</th>
-                    <th>கொடிகள்</th>
-                    <th>தரைக்கொடிகள்</th>
-                    <th>புற்கள்</th>
-                    <th>கள்ளிகள்</th>
-                    <th>கற்றாழைகள்</th>
-                    <th>நீர் வாழ் தாவரங்கள்</th>
-                    <th>பூஞ்சைகள் காளான்கள்</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-
-                    <td>
-                        <figure class="figure">
-                            <img src="assets/img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                        </figure>
-                    </td>
 
 
-                    <td>
-                        <figure class="figure">
-                            <img src="assets/img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                        </figure>
-                    </td>
-
-                    <td>
-                        <figure class="figure">
-                            <img src="assets/img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                        </figure>
-                    </td>
-
-                    <td>
-                        <figure class="figure">
-                            <img src="assets/img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                        </figure>
-                    </td>
-
-                    <td>
-                        <figure class="figure">
-                            <img src="assets/img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                        </figure>
-                    </td>
-
-                    <td>
-                        <figure class="figure">
-                            <img src="assets/img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                        </figure>
-                    </td>
-
-                    <td>
-                        <figure class="figure">
-                            <img src="assets/img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                        </figure>
-                    </td>
-
-                    <td>
-                        <figure class="figure">
-                            <img src="assets/img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                        </figure>
-                    </td>
-
-                    <td>
-                        <figure class="figure">
-                            <img src="assets/img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                        </figure>
-                    </td>
-
-                    <td>
-                        <figure class="figure">
-                            <img src="assets/img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                        </figure>
-                    </td>
-
-                    <td>
-                        <figure class="figure">
-                            <img src="assets/img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                        </figure>
-                    </td>
-
-                    <td>
-                        <figure class="figure">
-                            <img src="assets/img1.jpeg" class="figure-img img-fluid rounded" alt="...">
-                            <figcaption class="figure-caption"><a href="">மணத்தக்காளி</a> </figcaption>
-                        </figure>
-                    </td>
-
-
-                </tr>
-
-            </tbody>
-        </table>
-
-    </div>
 
 
 
@@ -478,19 +995,20 @@
     <!--footer-->
 
     <!--English-->
-    <footer class=" en" style="transition: background-color 3s ease 0s;">
+
+    <footer class="en" style="transition: background-color 3s ease 0s;">
         <div class="container-fluid">
             <div class="roww">
 
-                <div class="container-fluid text-center col-lg-12 col-md-12 p-2">
+                <div class="container-fluid text-center col-lg-12 col-sm-12 p-2">
                     <ul class="list-unstyled text-white row  " style="font-size: 13px;">
-                        <li class="col-6 col-md   p-0"><a href="" class="nav-link"> Disclaimer</a></li>
-                        <li class="col-6 col-md   p-0"><a href="" class="nav-link">Other Webaites</a></li>
-                        <li class="col-6 col-md   p-0"><a href="" class="nav-link">For Contact</a></li>
-                        <li class="col-6 col-md   p-0"><a href="" class="nav-link">Sitemap</a></li>
-                        <li class="col-6 col-md   p-0"><a href="" class="nav-link">Archives</a></li>
-                        <li class="col-6 col-md  p-0"><a href="#" class="nav-link">Feedback</a></li>
-                        <li class="col-12 col-md   p-0"><a href="" class="nav-link">Visitors : ABCD</a></li>
+                        <li class="col-6 col-sm   p-0"><a href="" class="nav-link"> Disclaimer</a></li>
+                        <li class="col-6 col-sm   p-0"><a href="" class="nav-link">Other Webaites</a></li>
+                        <li class="col-6 col-sm   p-0"><a href="" class="nav-link">For Contact</a></li>
+                        <li class="col-6 col-sm   p-0"><a href="" class="nav-link">Sitemap</a></li>
+                        <li class="col-6 col-sm   p-0"><a href="" class="nav-link">Archives</a></li>
+                        <li class="col-6 col-sm  p-0"><a href="#" class="nav-link">Feedback</a></li>
+                        <li class="col-12 col-sm   p-0"><a href="" class="nav-link">Visitors : ABCD</a></li>
                     </ul>
                 </div>
 
@@ -530,22 +1048,22 @@
             </div>
         </div>
     </footer>
-    <!--English-->
 
     <!--Tamil-->
+
     <footer class="ta" style="transition: background-color 3s ease 0s;">
         <div class="container-fluid">
             <div class="roww">
 
-                <div class="container-fluid text-center col-lg-12 col-md-12 p-2">
+                <div class="container-fluid text-center col-lg-12 col-sm-12 p-2">
                     <ul class="list-unstyled text-white row  " style="font-size: 13px;">
-                        <li class="col-6 col-md  p-0"><a href="" class="nav-link">பொறுப்பு அறிவிக்கை</a></li>
-                        <li class="col-6 col-md  p-0"><a href="" class="nav-link">பிற இணையத் தளங்கள்</a></li>
-                        <li class="col-6 col-md  p-0"><a href="" class="nav-link">தொடர்பு கொள்ள</a></li>
-                        <li class="col-6 col-md  p-0"><a href="" class="nav-link">தள உள்ளடக்கம்</a></li>
-                        <li class="col-6 col-md  p-0"><a href="" class="nav-link">தொகுப்பாற்றுப்படை</a></li>
-                        <li class="col-6 col-md  p-0"><a href="#" class="nav-link">கருத்து தெரிவிக்க</a></li>
-                        <li class="col-12 col-md p-0"><a href="" class="nav-link">பார்வையாளர் : ABCD</a></li>
+                        <li class="col-6 col-sm  p-0"><a href="" class="nav-link">பொறுப்பு அறிவிக்கை</a></li>
+                        <li class="col-6 col-sm  p-0"><a href="" class="nav-link">பிற இணையத் தளங்கள்</a></li>
+                        <li class="col-6 col-sm  p-0"><a href="" class="nav-link">தொடர்பு கொள்ள</a></li>
+                        <li class="col-6 col-sm  p-0"><a href="" class="nav-link">தள உள்ளடக்கம்</a></li>
+                        <li class="col-6 col-sm  p-0"><a href="" class="nav-link">தொகுப்பாற்றுப்படை</a></li>
+                        <li class="col-6 col-sm  p-0"><a href="#" class="nav-link">கருத்து தெரிவிக்க</a></li>
+                        <li class="col-12 col-sm p-0"><a href="" class="nav-link">பார்வையாளர் : ABCD</a></li>
                     </ul>
                 </div>
 
@@ -585,19 +1103,16 @@
             </div>
         </div>
     </footer>
-    <!--Tamil-->
-
     <!--footer-->
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"></script>
+    <!-- Include Bootstrap JS (optional, only if you need JavaScript features) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 
-    <!-- English-Switching-Mechanisam -->
     <script>
         function switchLanguage(lang) {
             if (lang === 'en') {
@@ -617,77 +1132,31 @@
             }
         }
     </script>
-    <!-- English-Switching-Mechanisam -->
 
-    <!--Menubar-Onclick-->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const contentContainer = document.getElementById("content-container");
-            const menuLinks = document.querySelectorAll(".navbar-nav .nav-link");
 
-            menuLinks.forEach((link) => {
-                link.addEventListener("click", function (event) {
-                    // Check if the parent is a dropdown
-                    const isDropdown = link.closest('.dropdown');
+<script>
+    function validatePasswords(event) {
+        var password = document.getElementById('password').value;
+        var confirmPassword = document.getElementById('confirmPassword').value;
 
-                    if (!isDropdown) {
-                        event.preventDefault();
+        // Check if both password fields are not empty
+        if (password.trim() === '' || confirmPassword.trim() === '') {
+            alert('இரண்டு கடவுச்சொற்களையும் உள்ளிடவும்.');
+            event.preventDefault(); // Prevent form submission
+            return;
+        }
 
-                        // Get the target content div id from the href attribute
-                        const targetId = this.getAttribute("href").substring(1);
-                        const targetContent = document.getElementById(targetId);
+        if (password === confirmPassword) {
+            alert('கடவுச்சொல் பொறுந்துகிறது! நீங்கள் படிவத்தை சமர்ப்பிக்கலாம்.');
+            // Uncomment the line below to actually submit the form
+            // document.getElementById('signupForm').submit();
+        } else {
+            alert('கடவுச்சொற்கள் பொருந்தவில்லை. தயவு செய்து மீண்டும் முயற்சிக்கவும்.');
+            event.preventDefault(); // Prevent form submission
+        }
+    }
+</script>
 
-                        // Hide all content divs
-                        document.querySelectorAll(".container > div[id^='content-']").forEach((contentDiv) => {
-                            contentDiv.style.display = "none";
-                        });
-
-                        // Show the selected content div
-                        if (targetContent) {
-                            targetContent.style.display = "block";
-                        }
-                    }
-                });
-            });
-        });
-    </script>
-    <!--Menubar-Onclick-->
-
-    <!-- About-Onclick -->
-    <script>
-        document.addEventListener("DOMContentLoaded", function () {
-            const contentContainer = document.querySelector('.scrollspy-example');
-            const menuLinks = document.querySelectorAll("#simple-list-example a");
-
-            // Initially hide all content except for the first item
-            document.querySelectorAll('.item-content').forEach((contentDiv, index) => {
-                if (index !== 0) {
-                    contentDiv.style.display = "none";
-                }
-            });
-
-            menuLinks.forEach((link) => {
-                link.addEventListener("click", function (event) {
-                    event.preventDefault();
-
-                    // Get the target content div id from the href attribute
-                    const targetId = this.getAttribute("href").substring(1);
-                    const targetContent = document.getElementById(targetId);
-
-                    // Hide all content divs
-                    document.querySelectorAll('.item-content').forEach((contentDiv) => {
-                        contentDiv.style.display = "none";
-                    });
-
-                    // Show the selected content div
-                    if (targetContent) {
-                        targetContent.style.display = "block";
-                    }
-                });
-            });
-        });
-    </script>
-    <!-- About-Onclick -->
 </body>
 
 </html>
